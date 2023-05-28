@@ -19,12 +19,13 @@ a
 
 .sidebar {
   position: fixed;
-  top: 0;
+  top: 1%;
   left: -300px;
-  width: 300px;
+  width: 20%;
   height: 100%;
   background-color: rgb(46, 71, 63);
   transition: left 0.6s ease;
+  /* border: 1px solid rgb(240, 172, 83); */
 }
 
 .sidebar-items {
@@ -36,8 +37,6 @@ a
   height: 5%;
   font-size: 1.5rem;
   
-  
-
 }
 
 #sidebar-toggle:checked ~ .sidebar {
@@ -52,6 +51,7 @@ a
   left: 20px;
   width: 30px;
   height: 30px;
+ 
   cursor: pointer;
   z-index: 1;
 }
@@ -77,4 +77,3 @@ a
 #sidebar-toggle:checked ~ .hamburger .line:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -6px);
 }
-
