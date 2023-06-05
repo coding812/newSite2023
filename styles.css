@@ -21,7 +21,11 @@ h3{
   display: block;
   margin-top: 20px;
 }
-
+.center
+{
+  text-align: center;
+  align-content: center;
+}
 /* Sidebar */
 
 a
