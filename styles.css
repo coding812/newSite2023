@@ -3,15 +3,6 @@ body {
   color: antiquewhite;
 }
 
-h1 {
-  text-align: center;
-  margin-top: 5%;
-}
-h3{
-  text-align: center;
-  margin-top: 1%;
-}
-
 #profile-pic
 {
   max-width: 600px;
@@ -26,7 +17,16 @@ h3{
   text-align: center;
   align-content: center;
 }
-/* Sidebar */
+
+footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/************ Sidebar ****************/
 
 a
 {
