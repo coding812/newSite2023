@@ -1,12 +1,11 @@
 .navbar 
 {
-    background-color: #21365b;
+    background-color: transparent;
     position: fixed;
     top: 2px;
     left: 0;
     right: 0;
     z-index: 9999;
-    color: white;
 }
 .codeSymbol
 {
@@ -19,4 +18,9 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
+}
+.link.active {
+    /* text-decoration: underline; */
+    color: whitesmoke;
+    text-shadow: 0 0 10px #7e0af3, 0 0 40px #7e0af3, 0 0 30px #7e0af3, 0 0 40px #21365b, 0 0 70px #21365b, 0 0 80px #21365b, 0 0 100px #21365b, 0 0 150px #21365b;
 }
