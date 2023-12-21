@@ -1,0 +1,10 @@
+.ProfileImage {
+    margin-top: 20%;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 455px;
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+    box-shadow: 0 0 25px 20px #192843;
+}
