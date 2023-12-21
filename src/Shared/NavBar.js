@@ -14,13 +14,13 @@ function NavBar()
         <Container>
           {/* <NavLink to="/home" className="nav-link">Home</NavLink>
           <NavLink to="/about" className="nav-link">About</NavLink> */}
-          <NavLink to="/" className="Active">Home</NavLink>
-          <NavLink to="/about" className="active">About</NavLink>
-          <img src={CodeSymbol} className='codeSymbol' alt='Code Symbol' />
+          <NavLink to="/" className="Active link">Home</NavLink>
+          <NavLink to="/about" className="active link">About</NavLink>
+          <img src={CodeSymbol} className='codeSymbol' alt='Self closing HTML Tag' />
           {/* <NavLink to="/portfolio" className="nav-link">Portfolio</NavLink>
           <NavLink to="/contact" className="nav-link">Contact</NavLink> */}
-          <NavLink to="/contact" className="active">Contact</NavLink>
-          <NavLink to="/portfolio" className="active">Portfolio</NavLink>
+          <NavLink to="/contact" className="active link">Contact</NavLink>
+          <NavLink to="/portfolio" className="active link">Work</NavLink>
         </Container>
       </Navbar>
     </Container>

@@ -1,5 +1,12 @@
-.ProfileImage {
-    margin-top: 20%;
+.home
+{
+    color:antiquewhite
+}
+
+
+.ProfileImage 
+{
+    margin-top: 20px;
     margin-bottom: 20px;
     width: 350px;
     height: 455px;
