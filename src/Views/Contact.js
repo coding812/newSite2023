@@ -24,8 +24,8 @@ const Contact = () =>
 
   return (
     <div>
-      <p>Click below to reach out by Phone, Email<br>
-      </br>or Text (best) <em>any time</em>! </p>
+      <p>Click below to reach out by Phone, Email<br/>
+      or Text (best) <em>any time</em>! </p>
       <a href={`sms:${phoneNumber}`}>
         <img src={Phone} 
           className={['Phone', vibrate ? 'vibrate' : ''].join(' ')}

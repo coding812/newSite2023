@@ -1,12 +1,12 @@
 .navbar 
 {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: #21365b;
     position: fixed;
-    top: 2px;
+    top: 0px;
     left: 0;
     right: 0;
     z-index: 9999;
-    
 }
 .codeSymbol
 {
