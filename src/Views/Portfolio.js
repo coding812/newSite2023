@@ -3,6 +3,7 @@ import { Button, Card } from 'react-bootstrap';
 
 import '../Views/Portfolio.css';
 import MikePage from '../Shared/Media/MikePageSnippet.png'
+import AppVideo from '../Shared/Media/AppVideo.webm'
 
 const Portfolio = () => {
   return (
@@ -29,7 +30,7 @@ const Portfolio = () => {
           </div>
           <div className='col-md-6 col-lg-4'>
             <Card style={{ width: '100%'}}>
-              <Card.Img variant="top" src={MikePage} />
+              <Card.Img variant="top" src={AppVideo} />
               <Card.Body>
                 <Card.Title>Site for Michael Mcdowell PhD.</Card.Title>
                 <Card.Text style={{fontSize: '1rem'}}>
