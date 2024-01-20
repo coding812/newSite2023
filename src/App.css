@@ -1,0 +1,14 @@
+.App {
+  /* background-color: #21365b; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  color: antiquewhite;
+  padding-top: 100px;
+  background-image: linear-gradient( 360deg,  rgba(69,179,224,1) 11.2%, rgba(102,51,153,1) 100.2% );
+}
+
