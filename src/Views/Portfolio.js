@@ -7,16 +7,14 @@ import MikePage from '../Shared/Media/MikePageSnippet.png'
 const Portfolio = () => {
   return (
     <>
-      <div className='container flex'>
+      <div className='container'>
         <div className='row justify-content-center'>
           <div className='col'>
-            <h1>Portfolio</h1>
-            <p>On this page You'll find projects, both personal and professional that<br/> I've worked on as they become available or are updated. <br/> Feel Free to check them out!</p>
+            <p>On this page, you'll find projects, both personal and professional, that I've worked on as they become available or are updated. <br/> Feel free to check them out!</p>
           </div>
         </div>
-        <div className='row justifyContent-center'>
+        <div className='row justify-content-center'>
           <div className='col-md-6 col-lg-4'>
-            {/* may make background of card transparent in th future with:  , background: 'transparent' ** apply to Card below */}
             <Card style={{ width: '100%'}}> 
               <Card.Img variant="top" src={MikePage} />
               <Card.Body>
@@ -33,7 +31,7 @@ const Portfolio = () => {
               </Card.Body>
             </Card>
           </div>
-          
+          {/* INSERT NEXT CARD HERE */}
         </div>
       </div>
     </>
